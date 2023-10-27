@@ -1,5 +1,39 @@
 *{
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
     padding: 0;
     margin: 0;
+}
+
+body{
+    color: #263138;
+}
+
+header{
+    background-color: #FF9A6C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 80px 24px 80px;
+}
+
+nav a{
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 32px;
+}
+
+section#inicio{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+h1, h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
 }
