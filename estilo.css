@@ -122,7 +122,17 @@ div.duvida img{
     border-left: 1px solid #FF725E;
     border-radius: 0 0 10px 10px;
     margin-top: -8px;
+    padding: 0 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.duvida.ativa p{
     padding: 24px;
+    opacity: 1;
+    height: fit-content;
 }
 
 footer{
